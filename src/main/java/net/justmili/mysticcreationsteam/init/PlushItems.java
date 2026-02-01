@@ -7,10 +7,10 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 
 public class PlushItems {
-    public static Item BASIC_TEST_PLUSH;
+    public static Item BASE_TEST_PLUSH;
 
     public static void load() {
-        BASIC_TEST_PLUSH = register("basictestplush", new BlockItem(PlushBlocks.BASIC_TEST_PLUSH, new Item.Properties()));
+        BASE_TEST_PLUSH = register("basetestplush", new BlockItem(PlushBlocks.BASE_TEST_PLUSH, new Item.Properties()));
     }
 
     private static Item register(String registryName, Item item) {

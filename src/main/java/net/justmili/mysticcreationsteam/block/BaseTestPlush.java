@@ -14,11 +14,11 @@ import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-public class BasicTestPlush extends Block {
+public class BaseTestPlush extends Block {
     public static final EnumProperty<Direction> FACING = HorizontalDirectionalBlock.FACING;
     private static final VoxelShape BOUNDING_BOX = Block.box(4, 0, 4, 11, 14, 11);
 
-    public BasicTestPlush() {
+    public BaseTestPlush() {
         super(Properties.ofFullCopy(Blocks.WHITE_WOOL)
             .mapColor(MapColor.COLOR_LIGHT_GRAY) //Texture of the test plushie block is a basic gray
             .noOcclusion()
