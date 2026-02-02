@@ -9,7 +9,7 @@
     "0": "mct_plushies:block/eno/eno",
     "1": "mct_plushies:block/eno/faces",
     "2": "mct_plushies:block/eno/block",
-    "particle": "mct_plushies:item/eno_plush"
+    "particle": "minecraft:block/black_wool"
   },
   "elements": [
     {

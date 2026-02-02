@@ -1,5 +1,19 @@
 {
   "item_group.mct_plushies.mct_plushies": "MCT Plushies",
   "block.mct_plushies.basetestplush": "Basic Testing Plush",
-  "block.mct_plushies.eno_plush": "Eno Plush"
+  "block.mct_plushies.eno_plush": "Eno Plush",
+  "block.mct_plushies.justmili_plush": "JustMili Plush",
+  "block.mct_plushies.eetgeenappels_plush": "Appels Plush",
+  "block.mct_plushies.mahan_plush": "Mahan Plush",
+  "block.mct_plushies.mochila_plush": "Mochila Plush",
+  "block.mct_plushies.gaelfm_plush": "GaelFM Plush",
+  "block.mct_plushies.dgiraffe_plush": "DGiraffe Plush",
+  "block.mct_plushies.flufaye_plush": "Flufaye Plush",
+  "block.mct_plushies.john_roboeye_plush": "John Roboeye Plush",
+  "block.mct_plushies.hxplume_plush": "HxPlume Plush",
+  "block.mct_plushies.raze7th_plush": "Raze7th Plush",
+  "block.mct_plushies.mary_plush": "Mary Plush",
+  "block.mct_plushies.izya_plush": "Izya Plush",
+  "block.mct_plushies.bluspring_plush": "BluSpring Plush",
+  "block.mct_plushies.nemestro_plush": "Nemestro Plush"
 }
