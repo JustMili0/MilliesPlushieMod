@@ -11,7 +11,7 @@ import org.apache.logging.log4j.Logger;
 
 public class MCTPlushies implements ModInitializer {
 	public static final String MODID = "mct_plushies";
-	public static final Logger LOGGER = LogManager.getLogger(MODID);
+	public static final Logger LOGGER = LogManager.getLogger(MCTPlushies.class);
 
 	@Override
 	public void onInitialize() {
@@ -23,5 +23,8 @@ public class MCTPlushies implements ModInitializer {
 
     public static Identifier asResource(String path) {
         return Identifier.fromNamespaceAndPath(MODID, path);
+    }
+    public static Identifier asModelResource(String path) {
+        return Identifier.parse(path);
     }
 }

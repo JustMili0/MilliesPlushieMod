@@ -15,11 +15,11 @@ import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-public class BaseTestPlush extends Block {
+public class EnoPlush extends Block {
     public static final EnumProperty<Direction> FACING = HorizontalDirectionalBlock.FACING;
     private static final VoxelShape BOUNDING_BOX = Block.box(2, 0, 2, 14, 16, 14);
 
-    public BaseTestPlush() {
+    public EnoPlush() {
         super(Properties.of()
             .setId(PlushResourceKeys.BASETEST_BLOCK)
             .strength(0.8f, 0.8f)
