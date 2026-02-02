@@ -17,7 +17,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class AppelsPlush extends Block {
     public static final EnumProperty<Direction> FACING = HorizontalDirectionalBlock.FACING;
-    private static final VoxelShape BOUNDING_BOX = Block.box(2, 0, 2, 14, 16, 14);
+    private static final VoxelShape BOUNDING_BOX = Block.box(2, 0, 2, 14, 14, 14);
 
     public AppelsPlush() {
         super(Properties.of()
