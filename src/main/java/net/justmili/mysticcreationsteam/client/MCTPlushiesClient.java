@@ -9,5 +9,6 @@ public class MCTPlushiesClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         ChunkSectionLayerMap.putBlock(PlushBlocks.BASETEST_PLUSH, ChunkSectionLayer.CUTOUT);
+        ChunkSectionLayerMap.putBlock(PlushBlocks.ENO_PLUSH, ChunkSectionLayer.CUTOUT);
     }
 }

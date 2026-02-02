@@ -24,7 +24,4 @@ public class MCTPlushies implements ModInitializer {
     public static Identifier asResource(String path) {
         return Identifier.fromNamespaceAndPath(MODID, path);
     }
-    public static Identifier asModelResource(String path) {
-        return Identifier.parse(path);
-    }
 }

@@ -18,9 +18,9 @@ public class PlushTab {
             BuiltInRegistries.CREATIVE_MODE_TAB, PLUSHIES_TAB,
             CreativeModeTab.builder(CreativeModeTab.Row.BOTTOM, 0)
                 .title(Component.translatable("item_group." + MCTPlushies.MODID + ".mct_plushies"))
-                .icon(() -> new ItemStack(PlushBlocks.BASETEST_PLUSH))
+                .icon(() -> new ItemStack(PlushBlocks.ENO_PLUSH))
                 .displayItems((params, output) -> {
-                    output.accept(PlushBlocks.BASETEST_PLUSH);
+                    output.accept(PlushBlocks.ENO_PLUSH);
                 })
                 .build()
         );

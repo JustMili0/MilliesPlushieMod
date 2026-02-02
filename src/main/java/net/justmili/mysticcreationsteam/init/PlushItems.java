@@ -28,6 +28,7 @@ public class PlushItems {
 
     public static void load() {
         BASETEST_PLUSH = registerBlockItem("basetestplush", PlushBlocks.BASETEST_PLUSH, PlushResourceKeys.BASETEST_ITEM);
+        ENO_PLUSH = registerBlockItem("eno_plush", PlushBlocks.ENO_PLUSH, PlushResourceKeys.ENO_ITEM);
     }
 
     private static Item registerBlockItem(String name, Block block, ResourceKey<Item> key) {

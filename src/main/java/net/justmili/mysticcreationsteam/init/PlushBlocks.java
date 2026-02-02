@@ -2,6 +2,7 @@ package net.justmili.mysticcreationsteam.init;
 
 import net.justmili.mysticcreationsteam.MCTPlushies;
 import net.justmili.mysticcreationsteam.block.BaseTestPlush;
+import net.justmili.mysticcreationsteam.block.EnoPlush;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.level.block.Block;
@@ -26,6 +27,7 @@ public class PlushBlocks {
 
     public static void load() {
         BASETEST_PLUSH = register("basetestplush", new BaseTestPlush());
+        ENO_PLUSH = register("eno_plush", new EnoPlush());
     }
 
     private static Block register(String registryName, Block block) {
