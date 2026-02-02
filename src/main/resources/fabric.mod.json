@@ -8,8 +8,9 @@
     "JustMili"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://modrinth.com/mod/mct-plushies",
+    "sources": "https://github.com/JustMili0/MCT-Plushies",
+    "issues": "https://github.com/JustMili0/MCT-Plushies/issues"
   },
   "license": "All Rights Reserved",
   "icon": "icon.png",
