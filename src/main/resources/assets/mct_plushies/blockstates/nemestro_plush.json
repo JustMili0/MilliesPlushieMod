@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "mct_plushies:block/nemestro_plush" },
+    "facing=east":  { "model": "mct_plushies:block/nemestro_plush", "y": 90 },
+    "facing=south": { "model": "mct_plushies:block/nemestro_plush", "y": 180 },
+    "facing=west":  { "model": "mct_plushies:block/nemestro_plush", "y": 270 }
+  }
+}
