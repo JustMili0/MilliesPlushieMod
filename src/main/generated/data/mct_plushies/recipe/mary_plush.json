@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "vplushies",
+  "key": {
+    "#": "minecraft:white_wool",
+    "x": "minecraft:glowstone_dust"
+  },
+  "pattern": [
+    "x",
+    "#"
+  ],
+  "result": {
+    "id": "mct_plushies:mary_plush"
+  }
+}

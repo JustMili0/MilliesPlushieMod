@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "vplushies",
+  "key": {
+    "#": "minecraft:black_wool",
+    "x": "minecraft:ender_pearl"
+  },
+  "pattern": [
+    "x",
+    "#"
+  ],
+  "result": {
+    "id": "mct_plushies:eno_plush"
+  }
+}

@@ -1,6 +1,6 @@
 package net.justmili.mysticcreationsteam.block;
 
-import net.justmili.mysticcreationsteam.init.PlushResourceKeys;
+import net.justmili.mysticcreationsteam.init.PlushResourceLists;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
@@ -21,7 +21,7 @@ public class MilliePlush extends Block {
 
     public MilliePlush() {
         super(Properties.of()
-            .setId(PlushResourceKeys.MILLIE_BLOCK)
+            .setId(PlushResourceLists.MILLIE_BLOCK)
             .strength(0.8f, 0.8f)
             .sound(SoundType.WOOL)
             .mapColor(MapColor.TERRACOTTA_BROWN)

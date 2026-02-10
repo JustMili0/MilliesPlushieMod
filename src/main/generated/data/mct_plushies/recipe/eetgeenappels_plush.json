@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "vplushies",
+  "key": {
+    "#": "minecraft:red_wool",
+    "x": "minecraft:apple"
+  },
+  "pattern": [
+    "x",
+    "#"
+  ],
+  "result": {
+    "id": "mct_plushies:eetgeenappels_plush"
+  }
+}

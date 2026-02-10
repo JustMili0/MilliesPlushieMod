@@ -25,6 +25,9 @@
     ],
     "client": [
       "net.justmili.mysticcreationsteam.client.MCTPlushiesClient"
+    ],
+    "fabric-datagen": [
+      "net.justmili.mysticcreationsteam.datagen.DataGenerator"
     ]
   },
   "mixins": [

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mct_plushies:block/john_roboeye_plush",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "mct_plushies:block/john_roboeye_plush"
+    },
+    "facing=south": {
+      "model": "mct_plushies:block/john_roboeye_plush",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mct_plushies:block/john_roboeye_plush",
+      "y": 270
+    }
+  }
+}

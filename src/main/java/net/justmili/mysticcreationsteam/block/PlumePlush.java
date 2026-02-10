@@ -1,6 +1,6 @@
 package net.justmili.mysticcreationsteam.block;
 
-import net.justmili.mysticcreationsteam.init.PlushResourceKeys;
+import net.justmili.mysticcreationsteam.init.PlushResourceLists;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
@@ -21,7 +21,7 @@ public class PlumePlush extends Block {
 
     public PlumePlush() {
         super(Properties.of()
-            .setId(PlushResourceKeys.PLUME_BLOCK)
+            .setId(PlushResourceLists.PLUME_BLOCK)
             .strength(0.8f, 0.8f)
             .sound(SoundType.WOOL)
             .mapColor(MapColor.TERRACOTTA_PURPLE)

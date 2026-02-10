@@ -2,6 +2,7 @@ package net.justmili.mysticcreationsteam;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.justmili.mysticcreationsteam.init.Events;
 import net.justmili.mysticcreationsteam.init.PlushBlocks;
 import net.justmili.mysticcreationsteam.init.PlushItems;
 import net.justmili.mysticcreationsteam.init.PlushTab;
@@ -19,6 +20,7 @@ public class MCTPlushies implements ModInitializer {
         PlushBlocks.load();
         PlushItems.load();
         PlushTab.load();
+        Events.register();
 	}
 
     public static Identifier asResource(String path) {

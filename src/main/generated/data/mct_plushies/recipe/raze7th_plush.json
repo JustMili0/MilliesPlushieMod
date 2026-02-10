@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "vplushies",
+  "key": {
+    "#": "minecraft:green_wool",
+    "x": "minecraft:leaf_litter"
+  },
+  "pattern": [
+    "x",
+    "#"
+  ],
+  "result": {
+    "id": "mct_plushies:raze7th_plush"
+  }
+}
