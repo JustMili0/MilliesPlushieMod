@@ -8,6 +8,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.block.Block;
 
 public class PlushTab {
     public static final ResourceKey<CreativeModeTab> PLUSHIES_TAB = ResourceKey.create(
@@ -20,21 +21,9 @@ public class PlushTab {
                 .title(Component.translatable("item_group." + MCTPlushies.MODID + ".mct_plushies"))
                 .icon(() -> new ItemStack(PlushBlocks.ENO_PLUSH))
                 .displayItems((params, output) -> {
-                    output.accept(PlushBlocks.ENO_PLUSH);
-                    output.accept(PlushBlocks.MILLIE_PLUSH);
-                    output.accept(PlushBlocks.APPELS_PLUSH);
-                    output.accept(PlushBlocks.MAHAN_PLUSH);
-                    output.accept(PlushBlocks.MOCHILA_PLUSH);
-                    output.accept(PlushBlocks.GAEL_PLUSH);
-                    output.accept(PlushBlocks.DGIRAFFE_PLUSH);
-                    output.accept(PlushBlocks.FAYE_PLUSH);
-                    output.accept(PlushBlocks.JOHN_PLUSH);
-                    output.accept(PlushBlocks.PLUME_PLUSH);
-                    output.accept(PlushBlocks.RAZE_PLUSH);
-                    output.accept(PlushBlocks.MARY_PLUSH);
-                    output.accept(PlushBlocks.IZYA_PLUSH);
-                    output.accept(PlushBlocks.BLU_PLUSH);
-                    output.accept(PlushBlocks.NEMESTRO_PLUSH);
+                    for (Block plush : PlushResourceLists.getPlushies()) {
+                        output.accept(plush);
+                    }
                 })
                 .build()
         );
