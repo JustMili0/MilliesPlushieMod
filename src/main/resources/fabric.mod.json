@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "mct_plushies",
+  "id": "lumynity_plushies",
   "version": "${version}",
-  "name": "MCT Plushies",
-  "description": "A \"thank you\" mod from the team lead of Mystic Creations Team to her team's members! <3",
+  "name": "Lumynity Plushies",
+  "description": "A \"thank you\" mod from the team lead of Lumynity Studios to her team's members! <3",
   "authors": [
     "JustMili"
   ],
@@ -12,30 +12,28 @@
     "BluSpring"
   ],
   "contact": {
-    "homepage": "https://modrinth.com/mod/mct-plushies",
-    "sources": "https://github.com/JustMili0/MCT-Plushies",
-    "issues": "https://github.com/JustMili0/MCT-Plushies/issues"
+    "homepage": "https://modrinth.com/mod/lumynity-plushies",
+    "sources": "https://github.com/JustMili0/LumynityPlushies",
+    "issues": "https://github.com/JustMili0/LumynityPlushies/issues"
   },
   "license": "All Rights Reserved",
   "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.justmili.mysticcreationsteam.MCTPlushies"
+      "net.justmili.lumynitystudios.LSPlushies"
     ],
     "client": [
-      "net.justmili.mysticcreationsteam.client.MCTPlushiesClient"
+      "net.justmili.lumynitystudios.client.LSPlushiesClient"
     ],
     "fabric-datagen": [
-      "net.justmili.mysticcreationsteam.datagen.DataGenerator"
+      "net.justmili.lumynitystudios.datagen.DataGenerator"
     ]
   },
-  "mixins": [
-    "mct-plushies.mixins.json"
-  ],
+  "mixins": [],
   "depends": {
     "fabricloader": ">=0.18.4",
-    "minecraft": "~26.1-",
+    "minecraft": "~26.1",
     "java": ">=25",
     "fabric-api": "*"
   }

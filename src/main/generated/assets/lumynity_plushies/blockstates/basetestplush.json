@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "lumynity_plushies:block/basetestplush",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "lumynity_plushies:block/basetestplush"
+    },
+    "facing=south": {
+      "model": "lumynity_plushies:block/basetestplush",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lumynity_plushies:block/basetestplush",
+      "y": 270
+    }
+  }
+}

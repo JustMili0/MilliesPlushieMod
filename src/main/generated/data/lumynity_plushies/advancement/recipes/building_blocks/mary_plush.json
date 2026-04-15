@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "lumynity_plushies:mary_plush"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "plush": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:white_wool"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "plush"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lumynity_plushies:mary_plush"
+    ]
+  }
+}
