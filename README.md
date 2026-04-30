@@ -31,3 +31,6 @@ Ofcourse! You can submit a request to add a content creator or a game character
 on the mod's [issues page](https://github.com/JustMili0/MilliesPlushieMod/issues), and I'll add them in!
 
 <hr>
+
+## Licensing
+The mod is protected under All Rights Reserved license, but should not apply to anyone or anything that has been added to the mod as a plushie.<br>
