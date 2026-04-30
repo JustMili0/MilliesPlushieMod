@@ -1,28 +1,13 @@
 {
 	"format_version": "1.21.11",
 	"credit": "Made by JustMili",
-	"texture_size": [32, 32],
+	"texture_size": [64, 64],
 	"textures": {
 		"0": "milliesplushiemod:block/eno/eno",
-		"1": "milliesplushiemod:block/eno/faces",
 		"2": "milliesplushiemod:block/eno/grass_block",
 		"particle": "block/black_wool"
 	},
 	"elements": [
-		{
-			"name": "ExtraHappy",
-			"from": [4.3, 6.15, 8.175],
-			"to": [10.3, 12.15, 8.175],
-			"rotation": {"x": -10.60086, "y": -7.86518, "z": 1.46711, "origin": [6.3, 6.15, 7.075]},
-			"faces": {
-				"north": {"uv": [9, 0, 12, 3], "texture": "#1"},
-				"east": {"uv": [29, 29, 29, 32], "texture": "#1"},
-				"south": {"uv": [29, 29, 32, 32], "texture": "#1"},
-				"west": {"uv": [29, 29, 29, 32], "texture": "#1"},
-				"up": {"uv": [32, 32, 29, 32], "texture": "#1"},
-				"down": {"uv": [32, 32, 29, 32], "texture": "#1"}
-			}
-		},
 		{
 			"name": "Main",
 			"from": [4, 6.5, 8],
@@ -190,40 +175,39 @@
 		{
 			"name": "Eno",
 			"origin": [8, 0, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				{
-					"name": "Face",
+					"name": "Head",
 					"origin": [7, 0, 10],
+					"scope": 0,
 					"color": 0,
 					"children": [0]
 				},
 				{
-					"name": "Head",
+					"name": "Torso",
 					"origin": [7, 0, 10],
+					"scope": 0,
 					"color": 0,
 					"children": [1]
 				},
 				{
-					"name": "Torso",
-					"origin": [7, 0, 10],
-					"color": 0,
-					"children": [2]
-				},
-				{
 					"name": "Arms",
 					"origin": [8, 0, 8],
+					"scope": 0,
 					"color": 0,
-					"children": [3, 4, 5]
+					"children": [2, 3, 4]
 				},
 				{
 					"name": "Legs",
 					"origin": [8, 0, 8],
+					"scope": 0,
 					"color": 0,
-					"children": [6, 7, 8]
+					"children": [5, 6, 7]
 				}
 			]
 		},
-		9
+		8
 	]
 }
