@@ -3,9 +3,9 @@
 	"credit": "Made by JustMili",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "lumynity_plushies:block/eno/eno",
-		"1": "lumynity_plushies:block/eno/faces",
-		"2": "lumynity_plushies:block/eno/block",
+		"0": "milliesplushiemod:block/eno/eno",
+		"1": "milliesplushiemod:block/eno/faces",
+		"2": "milliesplushiemod:block/eno/block",
 		"particle": "block/black_wool"
 	},
 	"elements": [

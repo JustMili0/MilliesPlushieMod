@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "lumynity_plushies:block/raze7th_plush",
+		"0": "milliesplushiemod:block/raze7th_plush",
 		"particle": "minecraft:block/green_wool"
 	},
 	"elements": [

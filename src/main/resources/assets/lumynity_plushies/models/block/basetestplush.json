@@ -3,7 +3,7 @@
 	"credit": "Made by JustMili",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "lumynity_plushies:block/basetestplush",
+		"0": "milliesplushiemod:block/basetestplush",
 		"particle": "minecraft:block/white_wool"
 	},
 	"elements": [

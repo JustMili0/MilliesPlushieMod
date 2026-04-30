@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "lumynity_plushies:block/hxplume_plush",
+		"0": "milliesplushiemod:block/hxplume_plush",
 		"particle": "minecraft:block/purple_wool"
 	},
 	"elements": [

@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "lumynity_plushies",
+  "id": "milliesplushiemod",
   "version": "${version}",
-  "name": "Lumynity Plushies",
-  "description": "A \"thank you\" mod from the team lead of Lumynity Studios to her team's members! <3",
+  "name": "Millie's Plushie Mod",
+  "description": "A tiny mod consisting of plushies of Lumynity Studios' team members, Vtubers, Games and few more",
   "authors": [
-    "JustMili"
+    "JustMili - Programming, Items & Textures"
   ],
   "contributors": [
-    "rubberhat1 \"The Hat\"",
-    "BluSpring"
+    "rubberhat1 \"The Hat\" - Block Models & Textures",
+    "BluSpring - Teaching Millie About Datagen"
   ],
   "contact": {
     "homepage": "https://modrinth.com/mod/lumynity-plushies",
@@ -21,19 +21,17 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.justmili.lumynitystudios.LSPlushies"
+      "net.justmili.plushies.Plushies"
     ],
-    "client": [
-      "net.justmili.lumynitystudios.client.LSPlushiesClient"
-    ],
+    "client": [],
     "fabric-datagen": [
-      "net.justmili.lumynitystudios.datagen.DataGenerator"
+      "net.justmili.plushies.datagen.DataGenerator"
     ]
   },
   "mixins": [],
   "depends": {
-    "fabricloader": ">=0.18.4",
-    "minecraft": "~26.1",
+    "fabricloader": ">=0.19.2",
+    "minecraft": "26.1.2",
     "java": ">=25",
     "fabric-api": "*"
   }

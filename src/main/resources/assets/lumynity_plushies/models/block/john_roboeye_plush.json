@@ -3,7 +3,7 @@
 	"credit": "Made by rubberhat1",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "lumynity_plushies:block/john_roboeye_plush",
+		"0": "milliesplushiemod:block/john_roboeye_plush",
 		"particle": "block/light_gray_wool"
 	},
 	"elements": [
