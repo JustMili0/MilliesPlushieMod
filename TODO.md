@@ -27,3 +27,6 @@ BluSpring - Duck (see https://crunchmunch.xyz/about )
 | Block Texture  | No        | Yes    |
 | Item Texture   | No        | Yes    |
 | Recipe         | No        | No     |
+
+- For "His/her model/oc" ask Millie to ask given person for OC/model references
+- Recipes are Millie's job
