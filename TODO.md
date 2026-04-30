@@ -1,18 +1,18 @@
 # Finish Plushies (Models, Block Textures, Item Textures) - Lumynity Studios
-Eno - Lumynity Studios mascot
-JustMili - Her oc/model sitting kinda like a cat
-Appels - An apple with a barrier block going through it
-Mahan - very specific picture of Jake from Advanture Time
-Mochila - -- He said he's gonna make it himself --
-GaelFM - Green happy fatass frog
-DGiraffe - His OC (on-pfp) in a DJ-like pose spinning a small vinyl mid-air
-Faye - Her model
-John - His OC
-Plume - Boykisser
-Raze - Her OC
-Mary - Her OC
-Izya - A black cat with golden eyes
-BluSpring - Duck (see https://crunchmunch.xyz/about )
+- Eno - Lumynity Studios mascot
+- JustMili - Her oc/model sitting kinda like a cat
+- Appels - An apple with a barrier block going through it
+- Mahan - very specific picture of Jake from Advanture Time
+- Mochila - -- He said he's gonna make it himself --
+- GaelFM - Green happy fatass frog
+- DGiraffe - His OC (on-pfp) in a DJ-like pose spinning a small vinyl mid-air
+- Faye - Her model
+- John - His OC
+- Plume - Boykisser
+- Raze - Her OC
+- Mary - Her OC
+- Izya - A black cat with golden eyes
+- BluSpring - Duck (see https://crunchmunch.xyz/about )
 
 | Has been made? | Eno | JustMili | Appels | Mahan | Mochila | GaelFM  | DGiraffe | Faye | John | Plume | Raze | Mary      | Izya |
 |:---------------|:----|:---------|:-------|:------|:--------|:--------|:---------|:-----|:-----|:------|:-----|:----------|:-----|
