@@ -7,6 +7,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
@@ -18,11 +19,11 @@ public class NemestroPlush extends Block {
     public static final EnumProperty<Direction> FACING = HorizontalDirectionalBlock.FACING;
     private static final VoxelShape BOUNDING_BOX = Block.box(2, 0, 2, 14, 16, 14);
 
-    public NemestroPlush() {
-        super(Properties.of()
+    public NemestroPlush(BlockBehaviour.Properties properties) {
+        super(properties
             .strength(0.8f, 0.8f)
             .sound(SoundType.WOOL)
-            .mapColor(MapColor.COLOR_BLACK)
+            .mapColor(MapColor.COLOR_RED)
             .noOcclusion()
             .lightLevel(state -> 0)
             .isSuffocating((state, getter, pos) -> false)

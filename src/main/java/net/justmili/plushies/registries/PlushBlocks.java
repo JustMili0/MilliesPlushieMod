@@ -6,7 +6,13 @@ import net.justmili.plushies.content.plushies.lumynitystudios.*;
 import net.justmili.plushies.content.plushies.vtubers.*;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+
+import java.util.function.Function;
 
 public class PlushBlocks {
     public static Block BASETEST_PLUSH; // Testing plush
@@ -40,39 +46,41 @@ public class PlushBlocks {
     public static Block ANALOGWHISKERS_PLUSH;
 
     public static void load() {
-        BASETEST_PLUSH = register("basetestplush", new BaseTestPlush());
+        BASETEST_PLUSH = register("basetestplush", properties -> new BaseTestPlush(properties));
 
-        ENO_PLUSH = register("eno_plush", new EnoPlush());
-        MILLIE_PLUSH = register("justmili_plush", new MilliePlush());
-        APPELS_PLUSH = register("eetgeenappels_plush", new AppelsPlush());
-        MAHAN_PLUSH = register("mahan_plush", new MahanPlush());
-        MOCHILA_PLUSH = register("mochila_plush", new MochilaPlush());
-        GAEL_PLUSH = register("gaelfm_plush", new GaelPlush());
-        DGIRAFFE_PLUSH = register("dgiraffe_plush", new DGiraffePlush());
-        FAYE_PLUSH = register("flufaye_plush", new FayePlush());
-        JOHN_PLUSH = register("john_roboeye_plush", new JohnPlush());
-        PLUME_PLUSH = register("hxplume_plush", new PlumePlush());
-        RAZE_PLUSH = register("raze7th_plush", new RazePlush());
-        MARY_PLUSH = register("mary_plush", new MaryPlush());
-        IZYA_PLUSH = register("izya_plush", new IzyaPlush());
-        BLU_PLUSH = register("bluspring_plush", new BluSpringPlush());
-        NEMESTRO_PLUSH = register("nemestro_plush", new NemestroPlush());
+        ENO_PLUSH = register("eno_plush", properties -> new EnoPlush(properties));
+        MILLIE_PLUSH = register("justmili_plush", properties -> new MilliePlush(properties));
+        APPELS_PLUSH = register("eetgeenappels_plush", properties -> new AppelsPlush(properties));
+        MAHAN_PLUSH = register("mahan_plush", properties -> new MahanPlush(properties));
+        MOCHILA_PLUSH = register("mochila_plush", properties -> new MochilaPlush(properties));
+        GAEL_PLUSH = register("gaelfm_plush", properties -> new GaelPlush(properties));
+        DGIRAFFE_PLUSH = register("dgiraffe_plush", properties -> new DGiraffePlush(properties));
+        FAYE_PLUSH = register("flufaye_plush", properties -> new FayePlush(properties));
+        JOHN_PLUSH = register("john_roboeye_plush", properties -> new JohnPlush(properties));
+        PLUME_PLUSH = register("hxplume_plush", properties -> new PlumePlush(properties));
+        RAZE_PLUSH = register("raze7th_plush", properties -> new RazePlush(properties));
+        MARY_PLUSH = register("mary_plush", properties -> new MaryPlush(properties));
+        IZYA_PLUSH = register("izya_plush", properties -> new IzyaPlush(properties));
+        BLU_PLUSH = register("bluspring_plush", properties -> new BluSpringPlush(properties));
+        NEMESTRO_PLUSH = register("nemestro_plush", properties -> new NemestroPlush(properties));
 
-        ZARSAI_PLUSH = register("zarsai_plush", new ZarsaiPlush());
-        SHADEVT_PLUSH = register("shadevt_plush", new ShadeVTPlush());
-        WHOISMONIA_PLUSH = register("whoismonia_plush", new WhoisMoniaPlush());
-        KURAYAMI_PLUSH = register("kurayamispider_plush", new KurayamiPlush());
-        QU1NNT0NZZ_PLUSH = register("qu1nnt0nzz_plush", new Qu1nnt0nzzPlush());
-        MEOWYNYAA_PLUSH = register("meowynyaa_plush", new MeowynyaaPlush());
-        SOOKIECHU_PLUSH = register("sookiechu_plush", new SookiechuPlush());
-        CHERRYCHIFFON_PLUSH = register("cherrychiffonvt_plush", new CherryChiffonPlush());
-        AURELIA_STARS_PLUSH = register("aurelia_stars_plush", new AureliaStarsPlush());
-        FUUMIZU_PLUSH = register("fuumizu_plush", new FuuMizuPlush());
-        ANALOGWHISKERS_PLUSH = register("analogwhiskers_plush", new AnalogWhiskersPlush());
+        ZARSAI_PLUSH = register("zarsai_plush", properties -> new ZarsaiPlush(properties));
+        SHADEVT_PLUSH = register("shadevt_plush", properties -> new ShadeVTPlush(properties));
+        WHOISMONIA_PLUSH = register("whoismonia_plush", properties -> new WhoisMoniaPlush(properties));
+        KURAYAMI_PLUSH = register("kurayamispider_plush", properties -> new KurayamiPlush(properties));
+        QU1NNT0NZZ_PLUSH = register("qu1nnt0nzz_plush", properties -> new Qu1nnt0nzzPlush(properties));
+        MEOWYNYAA_PLUSH = register("meowynyaa_plush", properties -> new MeowynyaaPlush(properties));
+        SOOKIECHU_PLUSH = register("sookiechu_plush", properties -> new SookiechuPlush(properties));
+        CHERRYCHIFFON_PLUSH = register("cherrychiffonvt_plush", properties -> new CherryChiffonPlush(properties));
+        AURELIA_STARS_PLUSH = register("aurelia_stars_plush", properties -> new AureliaStarsPlush(properties));
+        FUUMIZU_PLUSH = register("fuumizu_plush", properties -> new FuuMizuPlush(properties));
+        ANALOGWHISKERS_PLUSH = register("analogwhiskers_plush", properties -> new AnalogWhiskersPlush(properties));
     }
 
-    private static Block register(String registryName, Block block) {
-        return Registry.register(BuiltInRegistries.BLOCK, Plushies.asResource(registryName), block);
+    private static Block register(String name, Function<BlockBehaviour.Properties, Block> block) {
+        var id = Plushies.asResource(name);
+        return Registry.register(BuiltInRegistries.BLOCK, Plushies.asResource(name),
+            block.apply(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, id))));
     }
 
     public static Block[] getPlushies() {
