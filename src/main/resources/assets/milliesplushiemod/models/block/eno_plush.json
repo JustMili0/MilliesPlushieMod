@@ -5,7 +5,7 @@
 	"textures": {
 		"0": "milliesplushiemod:block/eno/eno",
 		"1": "milliesplushiemod:block/eno/faces",
-		"2": "milliesplushiemod:block/eno/block",
+		"2": "milliesplushiemod:block/eno/grass_block",
 		"particle": "block/black_wool"
 	},
 	"elements": [

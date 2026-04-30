@@ -38,7 +38,7 @@ public class PlushItems {
     public static Item MARY_PLUSH = registerBlockItem("mary_plush", PlushBlocks.MARY_PLUSH);
     public static Item IZYA_PLUSH = registerBlockItem("izya_plush", PlushBlocks.IZYA_PLUSH);
     public static Item BLU_PLUSH = registerBlockItem("bluspring_plush", PlushBlocks.BLU_PLUSH);
-    public static Item NEMESTRO_PLUSH = registerBlockItem("nemestro_plush", PlushBlocks.NEMESTRO_PLUSH);
+    public static Item VIKTOR_PLUSH = registerBlockItem("viktor_plush", PlushBlocks.VIKTOR_PLUSH);
 
     public static Item ZARSAI_PLUSH = registerBlockItem("zarsai_plush", PlushBlocks.ZARSAI_PLUSH);
     public static Item SHADEVT_PLUSH = registerBlockItem("shadevt_plush", PlushBlocks.SHADEVT_PLUSH);

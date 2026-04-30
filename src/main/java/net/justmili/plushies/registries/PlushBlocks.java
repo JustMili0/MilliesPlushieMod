@@ -30,7 +30,7 @@ public class PlushBlocks {
     public static Block MARY_PLUSH = register("mary_plush", MaryPlush::new);
     public static Block IZYA_PLUSH = register("izya_plush", IzyaPlush::new);
     public static Block BLU_PLUSH = register("bluspring_plush", BluSpringPlush::new); //Contributor
-    public static Block NEMESTRO_PLUSH = register("nemestro_plush", NemestroPlush::new); //Old team member
+    public static Block VIKTOR_PLUSH = register("viktor_plush", ViktorPlush::new); //Old team member
 
     public static Block ZARSAI_PLUSH = register("zarsai_plush", ZarsaiPlush::new);
     public static Block SHADEVT_PLUSH = register("shadevt_plush", ShadeVTPlush::new);
@@ -58,7 +58,7 @@ public class PlushBlocks {
             PlushBlocks.MILLIE_PLUSH, PlushBlocks.APPELS_PLUSH, PlushBlocks.MAHAN_PLUSH,
             PlushBlocks.MOCHILA_PLUSH, PlushBlocks.GAEL_PLUSH, PlushBlocks.DGIRAFFE_PLUSH,
             PlushBlocks.FAYE_PLUSH, PlushBlocks.JOHN_PLUSH, PlushBlocks.PLUME_PLUSH, PlushBlocks.RAZE_PLUSH, PlushBlocks.MARY_PLUSH,
-            PlushBlocks.IZYA_PLUSH, PlushBlocks.BLU_PLUSH, PlushBlocks.NEMESTRO_PLUSH,
+            PlushBlocks.IZYA_PLUSH, PlushBlocks.BLU_PLUSH, PlushBlocks.VIKTOR_PLUSH,
             PlushBlocks.ZARSAI_PLUSH, PlushBlocks.SHADEVT_PLUSH, PlushBlocks.WHOISMONIA_PLUSH,
             PlushBlocks.KURAYAMI_PLUSH, PlushBlocks.QU1NNT0NZZ_PLUSH,
             PlushBlocks.MEOWYNYAA_PLUSH, PlushBlocks.SOOKIECHU_PLUSH, PlushBlocks.CHERRYCHIFFON_PLUSH, PlushBlocks.AURELIA_STARS_PLUSH,

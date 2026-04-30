@@ -15,11 +15,11 @@ import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-public class NemestroPlush extends Block {
+public class ViktorPlush extends Block {
     public static final EnumProperty<Direction> FACING = HorizontalDirectionalBlock.FACING;
     private static final VoxelShape BOUNDING_BOX = Block.box(2, 0, 2, 14, 16, 14);
 
-    public NemestroPlush(BlockBehaviour.Properties properties) {
+    public ViktorPlush(BlockBehaviour.Properties properties) {
         super(properties
             .strength(0.8f, 0.8f)
             .sound(SoundType.WOOL)

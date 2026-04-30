@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "milliesplushiemod:item/nemestro_plush"
+    "layer0": "milliesplushiemod:item/viktor_plush"
   }
 }
