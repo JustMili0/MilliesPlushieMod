@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "milliesplushiemod:block/flufaye_plush",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "milliesplushiemod:block/flufaye_plush"
+    },
+    "facing=south": {
+      "model": "milliesplushiemod:block/flufaye_plush",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "milliesplushiemod:block/flufaye_plush",
+      "y": 270
+    }
+  }
+}

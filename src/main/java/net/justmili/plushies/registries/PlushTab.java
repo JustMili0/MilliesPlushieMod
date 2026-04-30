@@ -7,6 +7,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 
@@ -21,6 +22,11 @@ public class PlushTab {
                 .title(Component.translatable("item_group." + Plushies.MODID + ".tab"))
                 .icon(() -> new ItemStack(PlushItems.SEWING_NEEDLE))
                 .displayItems((params, output) -> {
+                    output.accept(PlushItems.SEWING_NEEDLE);
+                    output.accept(PlushItems.FABRIC_GENERIC);
+                    for (Item fabric : PlushItems.FABRICS.values()) {
+                        output.accept(fabric);
+                    }
                     for (Block plush : PlushBlocks.getPlushies()) {
                         output.accept(plush);
                     }

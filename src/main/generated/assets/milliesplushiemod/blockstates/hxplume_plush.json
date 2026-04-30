@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "milliesplushiemod:block/hxplume_plush",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "milliesplushiemod:block/hxplume_plush"
+    },
+    "facing=south": {
+      "model": "milliesplushiemod:block/hxplume_plush",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "milliesplushiemod:block/hxplume_plush",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "milliesplushiemod:block/fuumizu_plush",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "milliesplushiemod:block/fuumizu_plush"
+    },
+    "facing=south": {
+      "model": "milliesplushiemod:block/fuumizu_plush",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "milliesplushiemod:block/fuumizu_plush",
+      "y": 270
+    }
+  }
+}

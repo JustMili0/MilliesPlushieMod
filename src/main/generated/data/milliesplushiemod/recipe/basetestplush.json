@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "plushies",
+  "key": {
+    "1": "minecraft:white_wool",
+    "2": "milliesplushiemod:white_fabric",
+    "3": "minecraft:black_dye",
+    "4": "milliesplushiemod:sewing_needle"
+  },
+  "pattern": [
+    "12",
+    "34"
+  ],
+  "result": {
+    "id": "milliesplushiemod:basetestplush"
+  }
+}

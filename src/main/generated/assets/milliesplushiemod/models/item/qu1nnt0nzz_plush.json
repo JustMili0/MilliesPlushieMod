@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "milliesplushiemod:item/qu1nnt0nzz_plush"
+  }
+}
