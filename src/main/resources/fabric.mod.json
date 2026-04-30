@@ -5,10 +5,10 @@
   "name": "Millie's Plushie Mod",
   "description": "A tiny mod consisting of plushies of Lumynity Studios' team members, Vtubers, Games and few more",
   "authors": [
-    "JustMili - Programming, Items & Textures"
+    "JustMili - Programming, Items & Textures",
+    "rubberhat1 \"The Hat\" - Block Models & Textures"
   ],
   "contributors": [
-    "rubberhat1 \"The Hat\" - Block Models & Textures",
     "BluSpring - Teaching Millie About Datagen"
   ],
   "contact": {

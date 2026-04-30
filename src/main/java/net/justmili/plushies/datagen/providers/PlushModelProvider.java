@@ -3,7 +3,8 @@ package net.justmili.plushies.datagen.providers;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.justmili.plushies.Plushies;
-import net.justmili.plushies.registries.PlushResourceLists;
+import net.justmili.plushies.registries.PlushBlocks;
+import net.justmili.plushies.registries.PlushItems;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.MultiVariant;
@@ -25,15 +26,19 @@ public class PlushModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockModelGenerators blockGen) {
         //Generate only Blockstates
-        for (Block plush : PlushResourceLists.getPlushies()) {
+        for (Block plush : PlushBlocks.getPlushies()) {
             genBlockstates(blockGen, plush);
         }
     }
     @Override
     public void generateItemModels(ItemModelGenerators itemGen) {
         //Generate Item Models (Flat, "GENERATED")
-        for (Block plush : PlushResourceLists.getPlushies()) {
-            genItemModel(itemGen, plush);
+        for (Block plush : PlushBlocks.getPlushies()) {
+            genItemModelFromBlock(itemGen, plush);
+        }
+        genItemModel(itemGen, PlushItems.FABRIC_GENERIC);
+        for (Item fabric : PlushItems.FABRICS.values()) {
+            genItemModel(itemGen, fabric);
         }
     }
 
@@ -53,7 +58,10 @@ public class PlushModelProvider extends FabricModelProvider {
                 .select(Direction.WEST,  model.with(BlockModelGenerators.Y_ROT_270))
             );
     }
-    private static void genItemModel(ItemModelGenerators itemGen, Block block) {
+    private static void genItemModelFromBlock(ItemModelGenerators itemGen, Block block) {
         itemGen.generateFlatItem(Item.byBlock(block), ModelTemplates.FLAT_ITEM);
+    }
+    private static void genItemModel(ItemModelGenerators itemGen, Item item) {
+        itemGen.generateFlatItem(item, ModelTemplates.FLAT_ITEM);
     }
 }

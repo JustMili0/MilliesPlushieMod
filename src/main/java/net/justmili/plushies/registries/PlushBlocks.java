@@ -10,6 +10,7 @@ import net.minecraft.world.level.block.Block;
 
 public class PlushBlocks {
     public static Block BASETEST_PLUSH; // Testing plush
+
     public static Block ENO_PLUSH; // Mascot
     public static Block MILLIE_PLUSH;
     public static Block APPELS_PLUSH;
@@ -25,6 +26,7 @@ public class PlushBlocks {
     public static Block IZYA_PLUSH;
     public static Block BLU_PLUSH; //Contributor
     public static Block NEMESTRO_PLUSH; //Old team member
+
     public static Block ZARSAI_PLUSH;
     public static Block SHADEVT_PLUSH;
     public static Block WHOISMONIA_PLUSH;
@@ -71,5 +73,19 @@ public class PlushBlocks {
 
     private static Block register(String registryName, Block block) {
         return Registry.register(BuiltInRegistries.BLOCK, Plushies.asResource(registryName), block);
+    }
+
+    public static Block[] getPlushies() {
+        return new Block[] {
+            PlushBlocks.BASETEST_PLUSH, PlushBlocks.ENO_PLUSH,
+            PlushBlocks.MILLIE_PLUSH, PlushBlocks.APPELS_PLUSH, PlushBlocks.MAHAN_PLUSH,
+            PlushBlocks.MOCHILA_PLUSH, PlushBlocks.GAEL_PLUSH, PlushBlocks.DGIRAFFE_PLUSH,
+            PlushBlocks.FAYE_PLUSH, PlushBlocks.JOHN_PLUSH, PlushBlocks.PLUME_PLUSH, PlushBlocks.RAZE_PLUSH, PlushBlocks.MARY_PLUSH,
+            PlushBlocks.IZYA_PLUSH, PlushBlocks.BLU_PLUSH, PlushBlocks.NEMESTRO_PLUSH,
+            PlushBlocks.ZARSAI_PLUSH, PlushBlocks.SHADEVT_PLUSH, PlushBlocks.WHOISMONIA_PLUSH,
+            PlushBlocks.KURAYAMI_PLUSH, PlushBlocks.QU1NNT0NZZ_PLUSH,
+            PlushBlocks.MEOWYNYAA_PLUSH, PlushBlocks.SOOKIECHU_PLUSH, PlushBlocks.CHERRYCHIFFON_PLUSH, PlushBlocks.AURELIA_STARS_PLUSH,
+            PlushBlocks.FUUMIZU_PLUSH, PlushBlocks.ANALOGWHISKERS_PLUSH
+        };
     }
 }

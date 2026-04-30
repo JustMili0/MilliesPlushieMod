@@ -2,7 +2,7 @@ package net.justmili.plushies.datagen.providers;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootSubProvider;
-import net.justmili.plushies.registries.PlushResourceLists;
+import net.justmili.plushies.registries.PlushBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.world.level.block.Block;
 
@@ -15,7 +15,7 @@ public class PlushBlockLootProvider extends FabricBlockLootSubProvider {
 
     @Override
     public void generate() {
-        for (Block plush : PlushResourceLists.getPlushies()) {
+        for (Block plush : PlushBlocks.getPlushies()) {
             dropSelf(plush);
         }
     }

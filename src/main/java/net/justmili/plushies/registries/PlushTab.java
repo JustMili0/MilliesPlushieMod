@@ -12,16 +12,16 @@ import net.minecraft.world.level.block.Block;
 
 public class PlushTab {
     public static final ResourceKey<CreativeModeTab> PLUSHIES_TAB = ResourceKey.create(
-        Registries.CREATIVE_MODE_TAB, Plushies.asResource("mct_plushies"));
+        Registries.CREATIVE_MODE_TAB, Plushies.asResource("plushies_tab"));
 
     public static void load() {
         Registry.register(
             BuiltInRegistries.CREATIVE_MODE_TAB, PLUSHIES_TAB,
             CreativeModeTab.builder(CreativeModeTab.Row.BOTTOM, 0)
-                .title(Component.translatable("item_group." + Plushies.MODID + ".mct_plushies"))
-                .icon(() -> new ItemStack(PlushBlocks.ENO_PLUSH))
+                .title(Component.translatable("item_group." + Plushies.MODID + ".tab"))
+                .icon(() -> new ItemStack(PlushItems.SEWING_NEEDLE))
                 .displayItems((params, output) -> {
-                    for (Block plush : PlushResourceLists.getPlushies()) {
+                    for (Block plush : PlushBlocks.getPlushies()) {
                         output.accept(plush);
                     }
                 })

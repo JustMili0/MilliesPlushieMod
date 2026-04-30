@@ -1,6 +1,5 @@
 package net.justmili.plushies.content.plushies.lumynitystudios;
 
-import net.justmili.plushies.registries.PlushResourceLists;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
@@ -21,7 +20,6 @@ public class MahanPlush extends Block {
 
     public MahanPlush() {
         super(Properties.of()
-            .setId(PlushResourceLists.MAHAN_BLOCK)
             .strength(0.8f, 0.8f)
             .sound(SoundType.WOOL)
             .mapColor(MapColor.TERRACOTTA_ORANGE)

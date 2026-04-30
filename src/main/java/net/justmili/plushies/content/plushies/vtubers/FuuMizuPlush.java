@@ -1,6 +1,5 @@
 package net.justmili.plushies.content.plushies.vtubers;
 
-import net.justmili.vplushies.init.PlushResourceLists;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
@@ -21,7 +20,6 @@ public class FuuMizuPlush extends Block {
 
     public FuuMizuPlush() {
         super(Properties.of()
-            .setId(PlushResourceLists.FUUMIZU_BLOCK)
             .strength(0.8f, 0.8f)
             .sound(SoundType.WOOL)
             .mapColor(MapColor.COLOR_LIGHT_BLUE)
