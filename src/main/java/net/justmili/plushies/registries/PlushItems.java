@@ -15,6 +15,7 @@ import net.minecraft.world.level.block.Block;
 
 import java.util.EnumMap;
 import java.util.Map;
+import java.util.function.Function;
 
 public class PlushItems {
     public static final Map<DyeColor, Item> FABRICS = new EnumMap<>(DyeColor.class);
@@ -51,10 +52,10 @@ public class PlushItems {
     public static Item ANALOGWHISKERS_PLUSH;
 
     public static void load() {
-        SEWING_NEEDLE = registerItem("sewing_needle", new SewingNeedle());
-        FABRIC_GENERIC = registerItem("fabric", new Fabric(null));
+        SEWING_NEEDLE = registerItem("sewing_needle", SewingNeedle::new);
+        FABRIC_GENERIC = registerItem("fabric", properties -> new Fabric(properties, null));
         for (DyeColor color : DyeColor.values()) {
-            FABRICS.put(color, registerItem(color.getSerializedName() + "_fabric", new Fabric(color)));
+            FABRICS.put(color, registerItem(color.getSerializedName() + "_fabric", properties -> new Fabric(properties, color)));
         }
         
         BASETEST_PLUSH = registerBlockItem("basetestplush", PlushBlocks.BASETEST_PLUSH);
@@ -93,9 +94,9 @@ public class PlushItems {
         return Registry.register(BuiltInRegistries.ITEM, id, new BlockItem(block,
             new Item.Properties().useBlockDescriptionPrefix().setId(ResourceKey.create(Registries.ITEM, id))));
     }
-    private static Item registerItem(String name, Item item) {
+    private static Item registerItem(String name, Function<Item.Properties, Item> item) {
         var id = Plushies.asResource(name);
         return Registry.register(BuiltInRegistries.ITEM, Plushies.asResource(name),
-            new Item(item, new Item.Properties().setId(ResourceKey.create(Registries.ITEM, id)))); // TODO: FIX
+            item.apply(new Item.Properties().setId(ResourceKey.create(Registries.ITEM, id))));
     }
 }

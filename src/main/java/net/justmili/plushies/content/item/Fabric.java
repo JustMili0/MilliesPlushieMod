@@ -6,8 +6,8 @@ import net.minecraft.world.item.Item;
 public class Fabric extends Item {
     private final DyeColor color;
 
-    public Fabric(DyeColor color) {
-        super(new Properties().stacksTo(64));
+    public Fabric(Properties properties, DyeColor color) {
+        super(properties.stacksTo(64));
         this.color = color;
     }
 
