@@ -16,7 +16,7 @@ public class Plushies implements ModInitializer {
 	@Override
 	public void onInitialize() {
         LOGGER.info("Grabbing the materials...");
-        PlushItems.load();
+        PlushItems.register();
         LOGGER.info("Sewing the plushies...");
         PlushBlocks.load();
         LOGGER.info("Putting them on display...");

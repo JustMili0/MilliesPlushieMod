@@ -16,7 +16,7 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class BaseTestPlush extends Block {
-    public static final EnumProperty<Direction> FACING = HorizontalDirectionalBlock.FACING;
+    private static final EnumProperty<Direction> FACING = HorizontalDirectionalBlock.FACING;
     private static final VoxelShape BOUNDING_BOX = Block.box(2, 0, 2, 14, 16, 14);
 
     public BaseTestPlush(BlockBehaviour.Properties properties) {

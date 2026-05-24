@@ -25,12 +25,13 @@ public class PlushBlocks {
     public static Block DGIRAFFE_PLUSH = register("dgiraffe_plush", DGiraffePlush::new);
     public static Block FAYE_PLUSH = register("flufaye_plush", FayePlush::new);
     public static Block JOHN_PLUSH = register("john_roboeye_plush", JohnPlush::new);
-    public static Block PLUME_PLUSH = register("hxplume_plush", PlumePlush::new);
-    public static Block RAZE_PLUSH = register("raze7th_plush", RazePlush::new);
     public static Block MARY_PLUSH = register("mary_plush", MaryPlush::new);
     public static Block IZYA_PLUSH = register("izya_plush", IzyaPlush::new);
-    public static Block BLU_PLUSH = register("bluspring_plush", BluSpringPlush::new); //Contributor
-    public static Block VIKTOR_PLUSH = register("viktor_plush", ViktorPlush::new); //Old team member
+
+    public static Block BLU_PLUSH = register("bluspring_plush", BluSpringPlush::new);
+    public static Block VIKTOR_PLUSH = register("viktor_plush", ViktorPlush::new);
+    public static Block PLUME_PLUSH = register("hxplume_plush", PlumePlush::new);
+    public static Block RAZE_PLUSH = register("raze7th_plush", RazePlush::new);
 
     public static Block ZARSAI_PLUSH = register("zarsai_plush", ZarsaiPlush::new);
     public static Block SHADEVT_PLUSH = register("shadevt_plush", ShadeVTPlush::new);
@@ -57,8 +58,8 @@ public class PlushBlocks {
             PlushBlocks.BASETEST_PLUSH, PlushBlocks.ENO_PLUSH,
             PlushBlocks.MILLIE_PLUSH, PlushBlocks.APPELS_PLUSH, PlushBlocks.MAHAN_PLUSH,
             PlushBlocks.MOCHILA_PLUSH, PlushBlocks.GAEL_PLUSH, PlushBlocks.DGIRAFFE_PLUSH,
-            PlushBlocks.FAYE_PLUSH, PlushBlocks.JOHN_PLUSH, PlushBlocks.PLUME_PLUSH, PlushBlocks.RAZE_PLUSH, PlushBlocks.MARY_PLUSH,
-            PlushBlocks.IZYA_PLUSH, PlushBlocks.BLU_PLUSH, PlushBlocks.VIKTOR_PLUSH,
+            PlushBlocks.FAYE_PLUSH, PlushBlocks.JOHN_PLUSH, PlushBlocks.MARY_PLUSH, PlushBlocks.IZYA_PLUSH,
+            PlushBlocks.BLU_PLUSH, PlushBlocks.VIKTOR_PLUSH, PlushBlocks.PLUME_PLUSH, PlushBlocks.RAZE_PLUSH,
             PlushBlocks.ZARSAI_PLUSH, PlushBlocks.SHADEVT_PLUSH, PlushBlocks.WHOISMONIA_PLUSH,
             PlushBlocks.KURAYAMI_PLUSH, PlushBlocks.QU1NNT0NZZ_PLUSH,
             PlushBlocks.MEOWYNYAA_PLUSH, PlushBlocks.SOOKIECHU_PLUSH, PlushBlocks.CHERRYCHIFFON_PLUSH, PlushBlocks.AURELIA_STARS_PLUSH,

@@ -3,7 +3,6 @@ package net.justmili.plushies.registries;
 import net.justmili.plushies.Plushies;
 import net.justmili.plushies.content.item.Fabric;
 import net.justmili.plushies.content.item.SewingNeedle;
-import net.justmili.plushies.content.plushies.vtubers.*;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -33,12 +32,13 @@ public class PlushItems {
     public static Item DGIRAFFE_PLUSH = registerBlockItem("dgiraffe_plush", PlushBlocks.DGIRAFFE_PLUSH);
     public static Item FAYE_PLUSH = registerBlockItem("flufaye_plush", PlushBlocks.FAYE_PLUSH);
     public static Item JOHN_PLUSH = registerBlockItem("john_roboeye_plush", PlushBlocks.JOHN_PLUSH);
-    public static Item PLUME_PLUSH = registerBlockItem("hxplume_plush", PlushBlocks.PLUME_PLUSH);
-    public static Item RAZE_PLUSH = registerBlockItem("raze7th_plush", PlushBlocks.RAZE_PLUSH);
     public static Item MARY_PLUSH = registerBlockItem("mary_plush", PlushBlocks.MARY_PLUSH);
     public static Item IZYA_PLUSH = registerBlockItem("izya_plush", PlushBlocks.IZYA_PLUSH);
+
     public static Item BLU_PLUSH = registerBlockItem("bluspring_plush", PlushBlocks.BLU_PLUSH);
     public static Item VIKTOR_PLUSH = registerBlockItem("viktor_plush", PlushBlocks.VIKTOR_PLUSH);
+    public static Item PLUME_PLUSH = registerBlockItem("hxplume_plush", PlushBlocks.PLUME_PLUSH);
+    public static Item RAZE_PLUSH = registerBlockItem("raze7th_plush", PlushBlocks.RAZE_PLUSH);
 
     public static Item ZARSAI_PLUSH = registerBlockItem("zarsai_plush", PlushBlocks.ZARSAI_PLUSH);
     public static Item SHADEVT_PLUSH = registerBlockItem("shadevt_plush", PlushBlocks.SHADEVT_PLUSH);
@@ -69,5 +69,5 @@ public class PlushItems {
             item.apply(new Item.Properties().setId(ResourceKey.create(Registries.ITEM, id))));
     }
 
-    public static void load() {}
+    public static void register() {}
 }
