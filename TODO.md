@@ -1,32 +1,20 @@
-# Finish Plushies (Models, Block Textures, Item Textures) - Lumynity Studios
-- Eno - Lumynity Studios mascot
-- JustMili - Her oc/model sitting kinda like a cat
-- Appels - An apple with a barrier block going through it
-- Mahan - very specific picture of Jake from Advanture Time
-- Mochila - -- He said he's gonna make it himself --
-- GaelFM - Green happy fatass frog
-- DGiraffe - His OC (on-pfp) in a DJ-like pose spinning a small vinyl mid-air
-- Faye - Her model
-- John - His OC
-- Plume - Boykisser
+## Finish Plushies (Models, Block Textures, Item Textures) - Lumynity Studios
 - Raze - Her OC
-- Mary - Her OC
-- Izya - A black cat with golden eyes
-- BluSpring - Duck (see https://crunchmunch.xyz/about )
+- Mochila - Said he'll make it himself
 
-| Has been made? | Eno | JustMili | Appels | Mahan | Mochila | GaelFM  | DGiraffe | Faye | John | Plume | Raze | Mary      | Izya |
-|:---------------|:----|:---------|:-------|:------|:--------|:--------|:---------|:-----|:-----|:------|:-----|:----------|:-----|
-| Block Model    | Yes | No       | Yes    | No    | No      | No      | No       | No   | Yes  | No    | No   | To rework | No   |
-| Block Texture  | Yes | No       | WIP    | No    | No      | No      | No       | No   | Yes  | No    | No   | To rework | No   |
-| Item Texture   | No  | No       | Yes    | No    | No      | No      | No       | No   | No   | No    | No   | No        | No   |
-| Recipe         | No  | No       | No     | No    | No      | No      | No       | No   | No   | No    | No   | No        | No   |
+## Finish Plushies (Models, Block Textures, Item Textures) - Vtubers
+- Zarsai
+- ShadeVT
+- WhoisMonia
+- KurayamiSpider
+- Qu1nnt0nzz
+- Meowynyaa
+- Sookiechu
+- CherryChiffonVT
+- Aurelia Stars
+- FuuMizu
+- AnalogWhiskers
 
-| Has been made? | BluSpring | Viktor |
-|:---------------|:----------|:-------|
-| Block Model    | No        | Yes    |
-| Block Texture  | No        | Yes    |
-| Item Texture   | No        | Yes    |
-| Recipe         | No        | No     |
-
-- For "His/her model/oc" ask Millie to ask given person for OC/model references
-- Recipes are Millie's job
+<br><br>
+Most if not all Vtuber plushies can just be based off of their Vtuber models, all it requires is just looking them up on twitch.<br>
+Raze plushie can be done later as her OC is rather complicated
