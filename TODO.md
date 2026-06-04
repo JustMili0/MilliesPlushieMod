@@ -3,7 +3,7 @@
 - Mochila - Said he'll make it himself
 
 ## Finish Plushies (Models, Block Textures, Item Textures) - Vtubers
-- Zarsai
+- Zarsai (Minus the vampire theme from references 'cause she rebranded)
 - ShadeVT
 - WhoisMonia
 - KurayamiSpider
