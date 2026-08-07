@@ -9,8 +9,8 @@ import net.minecraft.world.level.block.Block;
 import java.util.concurrent.CompletableFuture;
 
 public class PlushBlockLootProvider extends FabricBlockLootSubProvider {
-    public PlushBlockLootProvider(FabricPackOutput dataOut, CompletableFuture<HolderLookup.Provider> registryLookup) {
-        super(dataOut, registryLookup);
+    public PlushBlockLootProvider(FabricPackOutput dataOut, CompletableFuture<HolderLookup.Provider> future) {
+        super(dataOut, future);
     }
 
     @Override
